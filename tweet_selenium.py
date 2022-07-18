@@ -31,10 +31,10 @@ driver = webdriver.Chrome('/Users/nihz415/Documents/学习/BUS256Marketing/chrom
 #login
 driver.get('http://www.twitter.com/login')
 username=driver.find_element_by_xpath('//input[@name="username"]')
-username.send_keys('nihz415@outlook.com')
+username.send_keys('//')
 username.send_keys(Keys.RETURN)
 password=driver.find_element_by_xpath('//input[@name="password"]')
-password.send_keys('Ultimate415')
+password.send_keys('//')
 password.send_keys(Keys.RETURN)
 #search
 search=driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[2]/header/div/div/div/div[1]/div[2]/nav/a[2]')
